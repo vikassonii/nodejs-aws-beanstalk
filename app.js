@@ -11,7 +11,11 @@ app.get('/api/users', (req, res) => {
     res.json({
         'name': 'Vikas',
         'city': 'Noida'
-    });
+    },
+        {
+            'name': 'Michel',
+            'city': 'Gurugram'
+        });
 });
 
 
