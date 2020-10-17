@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-aws-beanstalk",
+  "version": "1.0.0",
+  "description": "Deploy nodejs app to aws elastic beanstalk",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
