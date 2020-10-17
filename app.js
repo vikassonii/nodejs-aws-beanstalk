@@ -8,14 +8,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/users', (req, res) => {
-    res.json({
+    res.json([{
         'name': 'Vikas',
         'city': 'Noida'
     },
-        {
-            'name': 'Michel',
-            'city': 'Gurugram'
-        });
+    {
+        'name': 'Michel',
+        'city': 'Gurugram'
+    }]);
 });
 
 
